@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 10px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.links {
+    background:#3882F6;
+    display: flex;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 0px;
+    border-radius: 25px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 16px;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 108px 80px 108px;
+}
+
+.top1 {
+    display: flex;
+    flex-direction: column;
+    max-width:400px ;
+    GAP: 8PX
+}
+
+.topbold {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.topregular {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.topbutton {
+    background-color: #3882F6;
+    max-width: 80px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    border: solid #3882F6;
+}
+
+.bigpic{
+    display: flex;
+    flex-direction: column;
+    background-color:lightslategrey;
+    justify-content: flex-start;
+    align-items:center;
+    /* padding: 0px 140px; */
+    color: #F9FAF8;
+    border-radius: 25px;
+}
+
+.bigpic > div:first-child{
+    font-size: 3em;
+    padding: 10px;
+}
+
+.bigpic:last-child ul{
+    display: flex;
+    flex-direction: column;
+    background-color:lightslategrey;
+    justify-content: center;
+    align-items:flex-start;
+    font-size: 2em;
+    padding: 0px 30px;
+    /* padding: 0px 140px;
+    color: #F9FAF8;
+    border-radius: 25px; */
+}
+
+ul > a {
+    background-color: #1F2937;
+    border-radius: 15px;
+    padding: 0px 15px;
+}
+
+.middleupper {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    align-items: center;
+    gap: 16px;
+    padding: 30px;
+}
+
+.middleuppertext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    padding-bottom: 30px;
+}
+
+.pictext {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 0 200px 0 200px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pictext1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+img {
+    /* margin-bottom: 10px;
+    padding: 50px; */
+    vertical-align: top;
+    width: 160px;
+    height: 160px;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+}
+
+.text {
+    display: block;
+    width: 150px;
+    height: 36px;
+    padding-left: 20px;
+}
+
+.middleboldtext {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.middlelower {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #E5E7EB;
+    padding: 100px 50px;
+}
+
+.middlelowertext1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    align-items: center;
+}
+
+.middlelowertext2 {
+    display: flex;
+    align-self: flex-end;
+    width: fit-content;
+    color: #1F2937;
+    padding: 5px;
+    background-color: #3882F6;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.lower {
+    display: flex;
+    justify-content: space-around;
+    background: #3882F6;
+    color: #F9FAF8;
+    margin: 50px 200px;
+    padding: 50px 80px;
+}
+
+.lowertext1 {
+    font-weight: bold;
+}
+
+.bottombutton {
+    border: 1px solid #F9FAF8;
+    background: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.footer {
+    display: flex;
+    background: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 400px;
+    color: #F9FAF8;
+}
+
+.pictext1 button{
+    appearance: none;
+    border: #E5E7EB;
+    background-color:#F9FAF8;
+}
