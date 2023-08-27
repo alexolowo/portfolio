@@ -93,6 +93,7 @@ a {
     /* padding: 0px 140px; */
     color: #F9FAF8;
     border-radius: 25px;
+    max-height: -webkit-min-content;
 }
 
 .bigpic > div:first-child{
